@@ -1,1 +1,52 @@
+/* Skip Link Styling */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 0;
+}
 
+/* Nav element styling */
+.nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Descendant selector to style only the image in the nav */
+.nav img {
+    width: 10%;
+}
+
+/* Comment out existing styling for li element */
+/*
+li {
+    list-style: none;
+}
+*/
+
+/* Grid class styling: two column grid where each column is approx 40% */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Descendant selector to style only the images in the grid class to have a width of 100% */
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
